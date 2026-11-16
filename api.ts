@@ -8,7 +8,7 @@ import type { CitaPayload, CitaCreada, PublicConfig } from './types';
 
 const API_URL =
   process.env.NEXT_PUBLIC_API_URL ||
-  'https://script.google.com/macros/s/REEMPLAZA-CON-TU-ID/exec';
+  'https://script.google.com/macros/s/AKfycbxIpslooNGNBqrg6NAGwk5ElppYHDtC5sOPHU1uWoiaLu_73hs-wdQpIKjWgUe1XrTNKA/exec';
 
 // En el navegador, GET se hace con fetch normal. Apps Script responde
 // con Access-Control-Allow-Origin automáticamente cuando el request
